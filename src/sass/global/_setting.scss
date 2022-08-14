@@ -17,18 +17,17 @@ $padding-sp: 20px;
 // フォント設定
 ////////////////////
 
-$base-font-family: "";
+$base-font-family: "Shippori Mincho", serif;
 $second-font-family: "";
 // ※検証ツールでしっかり反映されているか確認する
 
-body {
-  font-family: $base-font-family;
-}
 
 // フォントウェイト
-$regular: 300;
-$normal: 400;
+$regular: 400;
+$medium: 500;
+$semi-bold: 600;
 $bold: 700;
+$extra-bold: 800;
 
 ////////////////////
 // 色の指定
@@ -38,6 +37,12 @@ $bold: 700;
 $black: #111;
 $white: #fff;
 
+$base-color: "";
+$main-color: "";
+$accent-color: "";
+
+$font-color: #000;
+
 
 ////////////////////
 // メディアクエリとブレークポイントの設定
@@ -45,7 +50,7 @@ $white: #fff;
 
 //ブレイクポイント
 $breakpoints: (
-  sm: 600,
+  sm: 500,
   md: 768,
   lg: 1024,
   xl: 1440,

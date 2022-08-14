@@ -1,0 +1,16 @@
+@use "global" as *;
+
+.c-menu-btn {
+
+}
+
+.c-menu-btn__img {
+
+}
+
+.c-menu-btn__title {
+  display: block;
+  font-size: rem(12);
+  line-height: 1;
+  font-weight: $semi-bold;
+}

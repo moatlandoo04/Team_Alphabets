@@ -20,6 +20,14 @@ html {
   }
 }
 
+body {
+  color: $font-color;
+  font-weight: $regular;
+  font-family: $base-font-family;
+  position: relative;
+  z-index: -100;
+}
+
 /* pcの電話番号発信対応 */
 a[href^="tel:"] {
   @include mq("md") {
