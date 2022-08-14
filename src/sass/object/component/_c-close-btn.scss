@@ -1,0 +1,19 @@
+@use "global" as *;
+
+.c-close-btn {
+
+}
+
+.c-close-btn__img {
+
+}
+
+.c-close-btn__title {
+  display: block;
+  text-transform: uppercase;
+  text-align: right;
+  font-size: rem(12);
+  line-height: 1;
+  font-weight: $semi-bold;
+  margin-top: rem(5);
+}

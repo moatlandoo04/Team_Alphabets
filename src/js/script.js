@@ -33,9 +33,9 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
   });
 
   //ドロワーメニュー
-  $('.navbar_toggle').on('click', function () {
-    $(this).toggleClass('open');
-    $('.menu').toggleClass('open');
+  $(".js-hamburger").click(function () {
+    $(".js-hamburger").toggleClass("is-move");
+    $(".js-drawer-menu").toggleClass("is-open");
   });
 
   // スムーススクロール (絶対パスのリンク先が現在のページであった場合でも作動)

@@ -2,7 +2,7 @@
   <div class="p-header__inner l-inner">
     <div class="p-header__content">
       <h1 class="p-header__logo">
-        <a href="#"><img src="./images/common/header-logo.svg" alt="ロゴ"></a>
+        <%- include('../component/_c-logo') %>
       </h1>
       <div class="p-header__menu-btn">
         <%- include('../component/_c-menu-btn') %>
@@ -11,9 +11,13 @@
         <%- include('./_p-pc-nav') %>
       </div>
     </div>
-    <!-- <div class="p-header__drawer js-drawer-menu">
-      <div class="p-header__sp-nav"></div>
+    <div class="p-header__drawer js-drawer-menu">
+      <div class="p-header__close-btn">
+        <%- include('../component/_c-close-btn') %>
+      </div>
+      <div class="p-header__sp-nav">
+        <%- include('./_p-sp-nav') %>
+      </div>
     </div>
-    <div class="p-header__overlay js-overlay"></div> -->
   </div>
 </header>

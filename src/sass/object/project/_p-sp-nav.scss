@@ -1,0 +1,23 @@
+@use "global" as *;
+
+.p-sp-nav {
+
+}
+
+.p-sp-nav__list {
+
+}
+
+.p-sp-nav__item {
+
+}
+
+.p-sp-nav__item a {
+  display: block;
+  text-align: center;
+  padding-top: rem(25);
+  padding-bottom: rem(25);
+  font-size: rem(18);
+  line-height: 1;
+  font-weight: $semi-bold;
+}

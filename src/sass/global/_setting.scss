@@ -38,7 +38,7 @@ $black: #111;
 $white: #fff;
 
 $base-color: "";
-$main-color: "";
+$main-color: #E5E1C8;
 $accent-color: "";
 
 $font-color: #000;
@@ -54,6 +54,7 @@ $breakpoints: (
   md: 768,
   lg: 1024,
   xl: 1440,
+  xxl: 1850,
 );
 
 
@@ -63,6 +64,7 @@ $mediaquerys: (
   md: "screen and (min-width: #{map-get($breakpoints,'md')}px)",
   lg: "screen and (min-width: #{map-get($breakpoints,'lg')}px)",
   xl: "screen and (min-width: #{map-get($breakpoints,'xl')}px)",
+  xxl: "screen and (min-width: #{map-get($breakpoints,'xxl')}px)",
 );
 
 // @include mq(){}で書くとブレークポイントが反映される（初期値はmd）

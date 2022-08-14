@@ -1,0 +1,130 @@
+@use "global" as *;
+
+.p-footer {
+  background-image: url(../images/common/footer_bg_01.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  border-top: 10px solid #000;
+
+  @include mq(lg) {
+    background-image: url(../images/common/footer_bg_03.jpg);
+    border-top: 20px solid #000;
+  }
+}
+
+.p-footer::before {
+
+  @include mq(lg) {
+    content: "";
+    width: rem(348);
+    height: rem(331);
+    background-image: url(../images/common/footer_bg_04.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+.p-footer::after {
+
+  @include mq(lg) {
+    content: "";
+    width: rem(570);
+    height: rem(331);
+    background-image: url(../images/common/footer_bg_05.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.p-footer__inner {
+  padding-top: rem(70);
+  position: relative;
+  z-index: 10;
+
+  @include mq(lg) {
+    padding-top: rem(65);
+  }
+}
+
+.p-footer__content {
+
+  @include mq(md) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.p-footer__logo {
+  width: 100%;
+  max-width: rem(211);
+  margin-left: auto;
+  margin-right: auto;
+
+  @include mq(md) {
+    max-width: rem(302);
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.p-footer__info {
+  width: 100%;
+  max-width: rem(311);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: rem(60);
+
+  @include mq(md) {
+    max-width: rem(367);
+    margin-left: rem(30);
+    margin-right: 0;
+    margin-top: 0;
+  }
+}
+
+.p-footer__text {
+  font-size: rem(14);
+  line-height: calc(36/14);
+
+  @include mq(md) {
+    font-size: rem(18);
+    line-height: 2;
+  }
+}
+
+.p-footer__img {
+
+  @include mq(lg) {
+    display: none;
+  }
+}
+
+.p-footer__copyright {
+  text-align: center;
+  margin-top: rem(-35);
+  position: relative;
+  z-index: 10;
+
+  @include mq(md) {
+    margin-top: rem(-50);
+  }
+  @include mq(lg) {
+    padding-bottom: rem(20);
+    margin-top: rem(25);
+  }
+}
+
+.p-footer__copyright small {
+  font-size: rem(13);
+
+  @include mq(md) {
+    font-size: rem(18);
+  }
+}
