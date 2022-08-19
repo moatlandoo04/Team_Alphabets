@@ -1,0 +1,21 @@
+<% const baseMeta = { title:'制作実績 | CodeUps', desc:'ディスクリプション', path:'./', page:'works' }; %>
+<!DOCTYPE html>
+<html lang="ja">
+<%- include(baseMeta.path + 'common/_head', {baseMeta: baseMeta}) %>
+<body>
+  <%- include(baseMeta.path + 'common/_p-header', {baseMeta: baseMeta}) %>
+  <div class="l-lower-mv">
+    <%- include(baseMeta.path + 'project/_p-lower-mv') %>
+  </div>
+  <div class="l-breadcrumb">
+    <%- include(baseMeta.path + 'component/_c-breadcrumb') %>
+  </div>
+  <div class="l-works-head">
+    <%- include(baseMeta.path + 'project/_p-works-head') %>
+  </div>
+  <div class="l-works-detail">
+    <%- include(baseMeta.path + 'project/_p-works-detail') %>
+  </div>
+  <%- include(baseMeta.path + 'common/_p-footer') %>
+</body>
+</html>

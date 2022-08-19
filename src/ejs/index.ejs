@@ -1,7 +1,35 @@
+<% const baseMeta = { title:'CodeUps', desc:'ディスクリプション', path:'./', page:'top' }; %>
 <!DOCTYPE html>
 <html lang="ja">
-<%- include('./common/_head') %>
-  <body>
-    <%- include('./component/_c-btn',{text:'これはテストです', link:'#'}) %>
-  </body>
+<%- include(baseMeta.path + 'common/_head', {baseMeta: baseMeta}) %>
+<body>
+  <%- include(baseMeta.path + 'common/_p-header', {baseMeta: baseMeta}) %>
+  <main class="l-main">
+    <div class="l-top-mv">
+      <%- include(baseMeta.path + 'project/_p-top-mv') %>
+    </div>
+    <section class="l-thought">
+      <%- include(baseMeta.path + 'project/_p-thought') %>
+    </section>
+    <section class="l-concept">
+      <%- include(baseMeta.path + 'project/_p-concept') %>
+    </section>
+    <section class="l-service">
+      <%- include(baseMeta.path + 'project/_p-service') %>
+    </section>
+    <section class="l-top-works">
+      <%- include(baseMeta.path + 'project/_p-top-works') %>
+    </section>
+    <section class="l-top-blog">
+      <%- include(baseMeta.path + 'project/_p-top-blog') %>
+    </section>
+    <section class="l-company">
+      <%- include(baseMeta.path + 'project/_p-company') %>
+    </section>
+    <section class="l-greeting">
+      <%- include(baseMeta.path + 'project/_p-greeting') %>
+    </section>
+  </main>
+  <%- include(baseMeta.path + 'common/_p-footer') %>
+</body>
 </html>
