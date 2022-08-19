@@ -5,6 +5,7 @@
   background-size: cover;
   background-position: center bottom;
   border-top: 10px solid #000;
+  position: relative;
 
   @include mq(lg) {
     background-image: url(../images/common/footer_bg_03.jpg);

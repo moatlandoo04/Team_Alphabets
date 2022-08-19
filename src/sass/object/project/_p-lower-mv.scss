@@ -1,0 +1,33 @@
+@use "global" as *;
+
+.p-lower-mv {
+  height: rem(844);
+  background-image: url(/images/common/lower-mv_sp.jpg);
+  background-size: cover;
+  background-position: center;
+
+  @include mq(md) {
+    height: rem(280);
+    background-image: url(/images/common/lower-mv_pc.jpg);
+    background-position: 80% center;
+  }
+  @include mq(xxl) {
+    background-position: center;
+  }
+}
+
+.p-lower-mv__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-lower-mv__title {
+  color: $white;
+  font-size: rem(48);
+  font-weight: $semi-bold;
+
+  @include mq(lg) {
+    font-size: rem(60);
+  }
+}

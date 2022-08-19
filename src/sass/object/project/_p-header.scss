@@ -10,11 +10,11 @@
 
 .p-header__inner {
   max-width: 100%;
-  padding-top: rem(7);
-  padding-bottom: rem(7);
+  padding: rem(7) rem(7) rem(7) rem(20);
 
   @include mq(md) {
     max-width: 100%;
+    padding-right: rem(15);
   }
 }
 
