@@ -20,4 +20,28 @@
   font-size: rem(18);
   line-height: calc(22/18);
   font-weight: $semi-bold;
+  position: relative;
+}
+
+.p-pc-nav__item a::after {
+  content: "";
+  width: rem(24);
+  height: rem(2);
+  background-color: transparent;
+  position: absolute;
+  bottom: rem(25);
+  left: 50%;
+  transform: translateX(-50%);
+  transition: background-color 0.3s;
+}
+
+.p-pc-nav__item a:hover::after {
+
+  @include mq(md) {
+    background-color: $black;
+  }
+}
+
+.p-pc-nav__item.is-current a::after {
+  background-color: $black;
 }
