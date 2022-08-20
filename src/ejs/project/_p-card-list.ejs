@@ -1,5 +1,7 @@
 <ul class="p-card-list">
+  <% for (var i = 0; i < max; i++) { %>
   <li class="p-card-list__item">
-    <%- include('./_p-card') %>
+    <%- include('./_p-card', {link:'/blog-detail.html'}) %>
   </li>
+  <% } %>
 </ul>

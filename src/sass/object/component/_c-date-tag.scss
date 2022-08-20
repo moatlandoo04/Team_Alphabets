@@ -1,0 +1,12 @@
+@use "global" as *;
+
+.c-date-tag {
+  font-size: rem(14);
+  line-height: 1;
+  font-weight: $semi-bold;
+  display: block;
+  padding: rem(7) rem(30);
+  background-image: url(/images/common/tag_bg_01.png);
+  background-size: cover;
+  background-position: center;
+}

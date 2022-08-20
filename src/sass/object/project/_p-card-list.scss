@@ -1,0 +1,38 @@
+@use "global" as *;
+
+.p-card-list {
+
+  @include mq(lg) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.p-card-list__item {
+
+  @include mq(lg) {
+    width: calc((100% - rem(77) * 2) / 3);
+  }
+}
+
+.p-card-list__item:nth-child(n+2) {
+  margin-top: rem(52);
+
+  @include mq(lg) {
+    margin-top: 0;
+  }
+}
+
+.p-card-list__item:nth-child(n+4) {
+
+  @include mq(lg) {
+    margin-top: rem(73);
+  }
+}
+
+.p-card-list__item:not(:nth-child(3n+1)) {
+
+  @include mq(lg) {
+    margin-left: rem(77);
+  }
+}

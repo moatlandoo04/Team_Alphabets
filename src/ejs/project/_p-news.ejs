@@ -1,7 +1,7 @@
 <div class="p-news">
   <div class="p-news__inner l-inner">
     <div class="p-news__list">
-      <%- include('./_p-card-list') %>
+      <%- include('./_p-card-list', {max: 9}) %>
     </div>
     <div class="p-news__pagenavi">
       <%- include('../component/_c-pagenavi') %>

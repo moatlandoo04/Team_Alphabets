@@ -1,7 +1,24 @@
 @use "global" as *;
 
 .c-btn {
-  padding: rem(10) rem(40);
-  background-color: black;
-  color: yellow;
+  display: inline-block;
+  text-transform: uppercase;
+  width: rem(309);
+  padding-top: rem(21);
+  padding-bottom: rem(25);
+  color: #BEA621;
+  font-size: rem(18);
+  line-height: 1;
+  font-weight: $semi-bold;
+  text-align: center;
+  background-image: url(/images/common/button_bg_01.png);
+  background-size: cover;
+  background-position: center top;
+
+  @include mq(lg) {
+    width: rem(410);
+    padding-top: rem(28);
+    padding-bottom: rem(29);
+    font-size: rem(24);
+  }
 }

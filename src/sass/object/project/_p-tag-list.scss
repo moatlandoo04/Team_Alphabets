@@ -1,0 +1,14 @@
+@use "global" as *;
+
+.p-tag-list {
+  display: flex;
+  align-items: center;
+}
+
+.p-tag-list__item {
+
+}
+
+.p-tag-list__item:nth-child(n+2) {
+  margin-left: rem(6);
+}
