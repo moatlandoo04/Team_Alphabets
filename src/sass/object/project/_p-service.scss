@@ -119,6 +119,10 @@
   bottom: rem(86);
   z-index: -1;
 
+  @include mq(md) {
+    bottom: rem(-30);
+  }
+
   @include mq(lg) {
     display: none;
   }
