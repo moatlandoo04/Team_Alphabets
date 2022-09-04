@@ -8,7 +8,6 @@
 
 .c-section-title__ja {
   display: block;
-  color: $white;
   font-size: rem(50);
   font-weight: $medium;
   position: relative;
@@ -19,10 +18,12 @@
   }
 }
 
+.c-section-title__ja--blog {
+  color: $white;
+}
+
 .c-section-title__en {
   display: block;
-  text-transform: capitalize;
-  color: #898989;
   font-size: rem(96);
   margin-top: rem(-80);
 
@@ -33,5 +34,15 @@
 }
 
 .c-section-title__en--blog {
+  color: #898989;
+  text-transform: capitalize;
+}
 
+.c-section-title__en--greeting {
+  color: #EBEBEB;
+  margin-left: rem(-40);
+
+  @include mq(lg) {
+    margin-left: rem(-80);
+  }
 }
