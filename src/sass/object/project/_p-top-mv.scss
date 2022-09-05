@@ -5,7 +5,7 @@
 }
 
 .p-top-mv__inner {
-
+  position: relative;
 }
 
 .p-top-mv__img {
@@ -38,4 +38,17 @@
   transform: translate(-50%, -50%);
   object-fit: cover;
   object-position: center;
+}
+
+.p-top-mv__info {
+  display: none;
+
+  @include mq(lg) {
+    display: block;
+    max-width: rem(593);
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
 }
