@@ -94,7 +94,7 @@
   font-weight: $extra-bold;
 }
 
-.p-card__title span {
+.p-card__title::first-letter {
   font-size: rem(40);
   line-height: 1;
 }

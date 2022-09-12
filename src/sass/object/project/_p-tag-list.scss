@@ -2,13 +2,14 @@
 
 .p-tag-list {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
   align-items: center;
+  margin-top: rem(-6);
+  margin-left: rem(-6);
 }
 
 .p-tag-list__item {
-
-}
-
-.p-tag-list__item:nth-child(n+2) {
+  margin-top: rem(6);
   margin-left: rem(6);
 }
