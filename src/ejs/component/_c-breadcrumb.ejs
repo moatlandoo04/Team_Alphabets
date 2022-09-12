@@ -1,1 +1,22 @@
-<div class="c-breadcrumb"></div>
+<div class="c-breadcrumb">
+  <ul class="c-breadcrumb__list l-inner">
+    <li class="c-breadcrumb__item">
+      <a class="c-breadcrumb__link" href="/">トップページ</a>
+    </li>
+    <% if(postTitle == "") { %>
+    <li class="c-breadcrumb__item">
+      <span class="c-breadcrumb__arrow">&nbsp;&nbsp;&gt;&nbsp;</span>
+      <span class="c-breadcrumb__title"><%= pageTitle %></span>
+    </li>
+    <% } else { %>
+    <li class="c-breadcrumb__item">
+      <span class="c-breadcrumb__arrow">&nbsp;&nbsp;&gt;&nbsp;</span>
+      <a class="c-breadcrumb__link" href="<%= link %>"><%= pageTitle %></a>
+    </li>
+    <li class="c-breadcrumb__item">
+      <span class="c-breadcrumb__arrow">&nbsp;&nbsp;&gt;&nbsp;</span>
+      <span class="c-breadcrumb__title"><%= postTitle %></span>
+    </li>
+    <% } %>
+  </ul>
+</div>

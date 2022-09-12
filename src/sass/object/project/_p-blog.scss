@@ -1,0 +1,20 @@
+@use "global" as *;
+
+.p-blog {
+
+}
+
+.p-blog__inner {
+
+  @include mq(md) {
+    max-width: rem(850);
+  }
+}
+
+.p-blog__list {
+
+}
+
+.p-blog__pagenavi {
+
+}
