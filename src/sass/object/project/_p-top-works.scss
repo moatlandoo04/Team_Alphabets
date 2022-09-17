@@ -1,0 +1,33 @@
+@use "global" as *;
+
+.p-top-works {
+
+}
+.p-top-works__titles{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: rem(80);
+}
+
+.p-top-works__title--en{
+	max-width: rem(414);
+}
+
+.p-top-works__title--ja{
+	font-size: rem(50);
+	font-weight: $medium;
+	position: absolute;
+}
+
+.p-top-works__lists {
+	display: grid;
+}
+
+.p-top-works__list {
+
+}
+
+.p-top-works__btn {
+
+}

@@ -1,0 +1,52 @@
+@use "global" as *;
+
+.c-pagenavi {
+	display: none;
+}
+
+
+.pagination {
+	display: flex;
+	max-width: rem(764);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.pagination li {
+
+}
+.page {
+	display: none;
+
+	@include mq(md){
+		display: initial;
+		position: relative;
+		width: rem(50);
+		height: rem(50);
+		border: 1px solid #8E8A78;
+		background-color: #EAE4C9;
+
+  }
+
+}
+
+.page.active {
+	border: none;
+	background-color: transparent;
+}
+
+.page a {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top: 25%;
+}
+
+.prev {
+	margin-right: rem(40);
+}
+
+.next {
+	margin-left: rem(40);
+}

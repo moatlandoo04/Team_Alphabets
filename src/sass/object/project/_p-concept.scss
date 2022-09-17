@@ -1,0 +1,46 @@
+@use "global" as *;
+
+// *{
+//   outline: 3px red solid;
+// }
+
+
+.p-concept {
+  margin-top: rem(82);
+  position: relative;
+}
+
+.p-concept__image {
+  margin: 0 calc(50% - 50vw);
+  position: relative;
+  width: rem(1181);
+  height: rem(844);
+  left: rem(-789);
+}
+.p-concept__image img {
+  vertical-align: bottom;
+  object-fit: cover;
+  object-position: rem(377);
+}
+
+.p-concept__contents {
+  position: absolute;
+  top: 48.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.p-concept__title {
+  color: white;
+  font-size: rem(24);
+  font-weight: $semi-bold;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+.p-concept__text {
+  color: white;
+  font-size: rem(17);
+  line-height: 1.882352941;
+  margin-top: rem(26);
+}

@@ -1,0 +1,16 @@
+@use "global" as *;
+
+.c-vertical-letter {
+  position: relative;
+  width: rem(206);
+  height: rem(441);
+
+  @include mq(md) {
+  }
+}
+.c-vertical-letter img {
+    vertical-align: bottom;
+    object-fit: cover;
+    object-position: rem(100) rem(100);
+
+  }

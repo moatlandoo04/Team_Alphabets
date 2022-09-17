@@ -1,0 +1,61 @@
+@use "global" as *;
+
+.p-semantic {
+  position: relative;
+
+}
+
+.p-semantic__copy {
+  margin-top: rem(66);
+  width: rem(373);
+  margin: 0 calc(54% - 50vw);
+  position: relative;
+  z-index: 1;
+}
+
+.p-semantic__images {
+  position: relative;
+}
+
+.p-semantic__image {
+  width: rem(350);
+  margin: 0 calc(58% - 50vw);
+  position: relative;
+  top: rem(-86);
+  z-index: 1;
+}
+
+.p-semantic__image-letter {
+  width: rem(179);
+  height: rem(383);
+  position: absolute;
+  top: rem(-8);
+  left: rem(-117);
+}
+
+.p-semantic__double {
+  width: rem(46);
+  top: rem(-150);
+  left: rem(-25);
+  position: relative;
+}
+
+.p-semantic__contents {
+  margin-top: rem(100);
+  font-size: rem(18);
+}
+
+.p-semantic__wiki {
+  position: relative;
+  margin-top: rem(-330);
+  line-height: 1.777777778;
+}
+
+.p-semantic__text {
+  margin-top: rem(40);
+  line-height: 2;
+}
+
+.p-semantic__text .under {
+  border-bottom: solid 4px #DCBE5A;
+}

@@ -1,6 +1,6 @@
 @use "global" as *;
 
-.c-fun-btn {
+.c-fun-btn a {
   display: inline-block;
   width: rem(200);
   padding: rem(20) 0;
@@ -14,7 +14,7 @@
   transition: all .5s ease-out;
   text-align: center;
 }
-.c-fun-btn:hover {
+.c-fun-btn a:hover {
   background-position: left bottom;
   color: #EAE4C9;
 }
