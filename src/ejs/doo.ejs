@@ -1,0 +1,33 @@
+<% const baseMeta = { title:'doo | CodeUps', desc:'ディスクリプション', path:'./', page:'top' }; %>
+<!DOCTYPE html>
+<html lang="ja">
+  <%- include(baseMeta.path + 'common/_head', {baseMeta: baseMeta}) %>
+  <body>
+
+    <div class="c-fun-btn">
+      <%- include(baseMeta.path + 'component/_c-fun-btn') %>
+    </div>
+
+    <div class="l-vertical-letter">
+      <%- include(baseMeta.path + 'component/_c-vertical-letter') %>
+    </div>
+
+    <div class="c-detail-title">
+      <%- include(baseMeta.path + 'component/_c-detail-title') %>
+    </div>
+
+    <div class="c-to-top js-page-top">
+      <%- include(baseMeta.path + 'component/_c-to-top') %>
+    </div>
+
+    <div class="l-pagenavii">
+      <%- include(baseMeta.path + 'component/_c-pagenavi') %>
+    </div>
+
+    <div class="p-quality">
+      <%- include(baseMeta.path + 'project/_p-quality') %>
+    </div>
+
+  </body>
+
+</html>

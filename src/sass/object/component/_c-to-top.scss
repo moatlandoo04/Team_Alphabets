@@ -1,0 +1,51 @@
+@use "global" as *;
+
+
+.c-to-top a {
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  width: rem(50);
+  height: rem(50);
+  border: solid rem(2) #707070;
+  border-radius: 50%;
+  box-shadow: 0 rem(3) rem(10) rgb(0 0 0 / 16%);
+}
+
+.c-to-top a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: rem(50);
+  height: rem(50);
+  background-color: #707070;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0, 0);
+  transition: transform ease 0.5s;
+}
+
+.c-to-top a:hover:after {
+  transform: translate(-50%, -50%) scale(1.1, 1.1);
+}
+
+.c-to-top a:before {
+  content: "";
+  position: absolute;
+  z-index: 10;
+  top: 55%;
+  left: 50%;
+  width: rem(15);
+  height: rem(15);
+  border-style: solid;
+  border-color: #707070;
+  border-width: rem(4) 0 0 rem(4);
+  transform: translate(-50%, -50%) rotate(45deg);
+  transition: border-color ease 0.3s;
+}
+
+.c-to-top a:hover:before {
+  border-color: #EAE4C9;
+}
+

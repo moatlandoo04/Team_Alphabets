@@ -1,0 +1,20 @@
+@use "global" as *;
+
+.c-fun-btn a {
+  display: inline-block;
+  width: rem(200);
+  padding: rem(20) 0;
+  background: linear-gradient(to right, #707070 50%, #F0EAD1 50%);
+  background-size: 200% 100.5%;
+  background-position: right bottom;
+  font-size: rem(18);
+  font-weight: $semi-bold;
+  border: rem(1) solid #707070;
+  border-radius: rem(50);
+  transition: all .5s ease-out;
+  text-align: center;
+}
+.c-fun-btn a:hover {
+  background-position: left bottom;
+  color: #EAE4C9;
+}

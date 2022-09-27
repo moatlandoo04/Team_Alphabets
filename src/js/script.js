@@ -1,7 +1,7 @@
 
 jQuery(function ($) { // この中であればWordpressでも「$」が使用可能になる
 
-  var topBtn = $('.page-top');
+  var topBtn = $('.js-page-top');
   topBtn.hide();
 
   // ボタンの表示設定
@@ -49,6 +49,14 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
     return false;
   });
 
+ // ページネーション
+  $('.js-pagination').paginathing({
+    perPage: 1,
+    firstLast: false,
+    prevText:'&laquo; &nbsp; <u>新しい記事へ</u>' ,
+    nextText:'<u>古い記事へ</u>  &nbsp; &raquo;' ,
+    activeClass: 'active',
+ })
 
 
 });
