@@ -1,0 +1,51 @@
+@use "global" as *;
+
+.c-line-btn {
+  display: inline-block;
+  max-width: rem(270);
+  width: 100%;
+  border-radius: rem(50);
+  transition: transform 0.3s;
+  position: relative;
+}
+
+.c-line-btn span {
+  display: block;
+  padding-top: rem(18);
+  padding-bottom: rem(18);
+  border-radius: rem(50);
+  color: $white;
+  background-color: #06C755;
+  font-size: rem(18);
+  font-weight: $semi-bold;
+  line-height: 1;
+  text-align: center;
+}
+
+.c-line-btn:hover {
+
+  @include mq(md) {
+    opacity: 1;
+    transform: translateY(3px);
+  }
+}
+
+.c-line-btn::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #19954C;
+  border-radius: rem(50);
+  position: absolute;
+  top: 3px;
+  left: 0;
+  z-index: -10;
+  transition: transform 0.3s;
+}
+
+.c-line-btn:hover::before {
+
+  @include mq(md) {
+    transform: translateY(-3px);
+  }
+}

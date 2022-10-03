@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2" height="31" viewBox="0 0 2 31">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="2" height="31" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="480" height="2" fill="none"/>
+    </clipPath>
+    <image id="image" width="470" height="2" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdYAAAACCAYAAADlwv3XAAAFQklEQVRIiWXWyY8eVxUF8F/1YLfbadsJIXYgOHaQLJsQIZAJU0QYLBSQYMGkSAixZQFCCOUfYAmCRXYBJCQWLBAECTEkEpMEAcJgh9khEDseMO42xmkP3Z/b3cXinqcqd0oqfV9VvXfveeece9/r8CTmMYtFHMVzeBU+jR1YwUzun+Bx/A2nsAsH8RG8K8+9uv6L3+GnWMbDeCO2YwobhqvDNK7iqeS4hCN4Z+Ku4ArO4i/Yg3swwRLO4c94Be7D7fg8duPjuDd5r2Eu657ObzfCbTTuLJ5PbjgQbuY34Z5kjavBfQYX8Sbsy1qn8CP8Hp/EtnC4EDy3YivWRzhuZO7sCOMt+baCF5P3bLg7ER5OBuNl/CpYDmOn0u7lwfXrYN6HCzjf9/21rusW8Jnw/WRivx+P4I4Rxj64NrLmn+MYXpn3p/Fo1rr56ke/43hTudvVje4e10fjp/K8mnuL8teM0uE7+Eb42K60O6i8saD8fRfuz/P1Ua5Zpe1Yj3ZdwLfxTeWJzyoNZ/Ay/Ev5c3fGb7jZY1N5bt+uK7+tJ+983q8G19bMWVWemMvc9cRscVtMWFP8/xHns+792LtpXPs/CY6NEYcN9wl8Hc/gAXwg8aYMmnXB1vB0XpqnzxhKq+n8v5H7f6pvXE7uxsd+VR+dwRvjeu2VJouZN2eo04al/RrlbbEuKW5nVa3cUD1n2s0emE/sy8rnO5TX55J3I2s4nXy7g3shsSeJtZ6cizie30Oqd+0MzqP5f1/ingu26eS8gRcS+7XJM5O8a4mxbOibc3gCj+Effd+vQ9d1c8oT9ypt3x7udiTWFVXX5/GeYO+i06Kq7QuqLx0IR5NgXsG/8WywXlS95oF8W8NtWfuukT6tp2wEwyT6bDN4f1xD46t5ZA1fVfvPMdXbbnRdtxefwIdVH2j+vYbfqP54p9pb9gTfKaXp8+HjrcqT5zJ3p6HeftsFMENBXQoR8wm8biiEmYC+qIr1qGpKh5Nkq6EQ27WmBFnJmFlDM2jX1KZnWchVgzHHhXBZiXQheGfxFmWwJUX+Kp7GF/BRfCwkyZwThg12V8jbvglDI3s635pgjZPeS5vaJNh+rMx0BO8NdxN8C1/Gh/CgoSBa4R/P+l6d9y1u43RmE199eDqJ7+GHwXxaabEtc1+PzynDfF8VygvhYibjdinTXFCbw6HEnVKHpiN4g9K55R5fTaPmgWVlvH2K583z2ppPKa2uKp8cUHpuGcWdTtxF/GyE7xR+gb8n1h48FJwb4eRx5cODeJ9qVFuz9u+Gm/vxV/wzOa8bms0ON2+K1IHmafxAeWGf0u4WfFAV3orhUDSXNVzMvZA1tJoaazwJb8eUjgcM9XVa+aPV5pw66IwPLuP6awfYhkO4GG/wmzdHBl+3DeUMvoavBPdD+JRqwO2gMxUupoNrfAiaVXq2ht8r/jtVsydVzS4pLc+Gyz5rezhrnjdsIM1nq/gTfpn3r8nc1mva+KWMb31lp/L7rOoHt+HuxHkquRYM/WRBbToLqlk/Fi4OJ8ck6z+pmnOv+uPdqp7nlX+vZtxZ5d/jwXFX+LwjazuuPPtg3p0IruXEW1eb217VR/aojaJtwlfUAW+LYUN+As/1fb/WdV3X933fdV3ra61+3ox3423R/ji+FL3eEQ0pL/4nOa+oOjmUfC9m3ER551l14BCu9obTLvMeCY+t5i8n73JizifXsqqD26PLdLBfyfvm4+1K7y/iDzjd9/31xNZ13f7w2vakO4P3UdUDFqLHPdHkWLRaUp5+XTRoffbWvD+Dk/8HMkG6i1mR/JsAAAAASUVORK5CYII="/>
+  </defs>
+  <g id="リピートグリッド_7" data-name="リピートグリッド 7" clip-path="url(#clip-path)">
+    <g transform="translate(-881 -1173)">
+      <g id="border" transform="translate(883 1173) rotate(90)">
+        <g id="リピートグリッド_3" data-name="リピートグリッド 3" clip-path="url(#clip-path-2)">
+          <g transform="translate(-126 -659)">
+            <use id="border_splid" transform="translate(126 659)" xlink:href="#image"/>
+          </g>
+          <g transform="translate(343 -659)">
+            <use id="border_splid-2" data-name="border_splid" transform="translate(126 659)" xlink:href="#image"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

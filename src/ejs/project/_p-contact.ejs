@@ -1,1 +1,26 @@
-<div class="p-contact"></div>
+<div class="p-contact">
+  <div class="p-contact__inner l-inner">
+    <div class="p-contact__content">
+      <div class="p-contact__left">
+        <p class="p-contact__text">
+          サイト制作依頼や CodeUps のサービスについてお聞きしたいことがございましたらお気軽にお問い合わせください。<br>
+          お問い合わせ頂いてから約3営業日以内に回答させていただきます。
+        </p>
+        <div class="p-contact__form">
+          <%- include('./_p-form') %>
+        </div>
+      </div>
+      <div class="p-contact__right">
+        <p class="p-contact__text">
+          Code Ups のサービスにつきましては LINE から受け付ておりますのでLINE にご登録の上お問い合わせください。
+        </p>
+        <div class="p-contact__logo">
+          <img src="/images/pages/contact_logo.svg" alt="CodeUps">
+        </div>
+        <div class="p-contact__btn">
+          <%- include('../component/_c-line-btn', {link:'#', text:'LINEから申し込む'}) %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

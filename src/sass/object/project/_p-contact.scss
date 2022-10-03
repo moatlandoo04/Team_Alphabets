@@ -1,0 +1,95 @@
+@use "global" as *;
+
+.p-contact {
+
+}
+
+.p-contact__inner {
+  max-width: 100%;
+
+  @include mq(md) {
+    max-width: rem(850);
+  }
+}
+
+.p-contact__content {
+
+  @include mq(lg) {
+    display: flex;
+  }
+}
+
+.p-contact__left {
+  padding-bottom: rem(80);
+  position: relative;
+
+  @include mq(lg) {
+    width: 55%;
+    padding-bottom: 0;
+    padding-right: rem(60);
+  }
+}
+
+.p-contact__left::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-image: url(../images/pages/contact_line_02.svg);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  @include mq(lg) {
+    width: 2px;
+    height: 100%;
+    background-image: url(../images/pages/contact_line_03.svg);
+    bottom: 0;
+    right: 0;
+  }
+}
+
+.p-contact__right {
+  margin-top: rem(65);
+
+  @include mq(lg) {
+    width: 45%;
+    padding-left: rem(60);
+    margin-top: 0;
+  }
+}
+
+.p-contact__text {
+  font-size: rem(18);
+  line-height: calc(40/18);
+}
+
+.p-contact__form {
+  margin-top: rem(70);
+
+  @include mq(lg) {
+    margin-top: rem(60);
+  }
+}
+
+.p-contact__logo {
+  max-width: rem(160);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: rem(40);
+
+  @include mq(lg) {
+    margin-top: rem(70);
+  }
+}
+
+.p-contact__btn {
+  text-align: center;
+  margin-top: rem(40);
+
+  @include mq(lg) {
+    margin-top: rem(50);
+  }
+}
