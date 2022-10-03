@@ -16,5 +16,11 @@
 }
 
 .p-blog__pagenavi {
+  display: flex;
+  justify-content: center;
+  margin-top: rem(50);
 
+  @include mq(lg) {
+    margin-top: rem(100);
+  }
 }
