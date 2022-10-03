@@ -13,8 +13,10 @@
   padding: rem(7) rem(7) rem(7) rem(20);
 
   @include mq(md) {
-    max-width: 100%;
     padding-right: rem(15);
+  }
+  @include mq(lg) {
+    max-width: 100%;
   }
 }
 

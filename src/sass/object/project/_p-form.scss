@@ -1,0 +1,80 @@
+@use "global" as *;
+
+.p-form {
+  
+}
+
+.p-form__list {
+
+}
+
+.p-form__item {
+
+  @include mq(lg) {
+    display: flex;
+  }
+}
+
+.p-form__item + .p-form__item {
+  margin-top: rem(50);
+}
+
+.p-form__title {
+  font-size: rem(20);
+
+  @include mq(lg) {
+    width: rem(160);
+    padding-top: rem(8);
+  }
+}
+
+.p-form__input {
+  padding-left: rem(60);
+  margin-top: rem(20);
+  position: relative;
+
+  @include mq(lg) {
+    width: calc(100% - rem(160));
+    margin-top: 0;
+  }
+}
+
+.p-form__input::after {
+  content: "";
+  width: rem(2);
+  height: rem(31);
+  background-image: url(../images/pages/contact_line_01.svg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  left: rem(30);
+  top: rem(10);
+}
+
+.p-form__input input {
+  width: 100%;
+  padding: rem(13) rem(16);
+  background-color: $white;
+  border: 1px solid #9A9A9A;
+  font-size: rem(14);
+  font-weight: $semi-bold;
+}
+
+.p-form__input textarea {
+  width: 100%;
+  min-height: rem(175);
+  padding: rem(13) rem(16);
+  background-color: $white;
+  border: 1px solid #9A9A9A;
+  font-size: rem(14);
+  font-weight: $semi-bold;
+}
+
+.p-form__btn {
+  text-align: center;
+  margin-top: rem(40);
+
+  @include mq(lg) {
+    margin-top: rem(60);
+  }
+}

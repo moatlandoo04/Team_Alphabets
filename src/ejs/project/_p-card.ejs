@@ -1,17 +1,19 @@
 <a class="p-card" href="<%= link %>">
-  <div class="p-card__img">
-    <img src="/images/common/card_img_01.jpg" alt="カード画像">
-  </div>
-  <div class="p-card__info">
-    <div class="p-card__date">
-      <%- include('../component/_c-date-tag', {date:'12月31日'}) %>
+  <div class="p-card__container">
+    <div class="p-card__img">
+      <img src="/images/common/card_img_01.jpg" alt="カード画像">
     </div>
-    <div class="p-card__category">
-      <%- include('./_p-tag-list', {max: 2}) %>
+    <div class="p-card__info">
+      <div class="p-card__date">
+        <%- include('../component/_c-date-tag', {date:'12月31日'}) %>
+      </div>
+      <div class="p-card__category">
+        <%- include('./_p-tag-list', {max: 2}) %>
+      </div>
     </div>
-  </div>
-  <div class="p-card__body">
-    <h3 class="p-card__title">写真コミュニティ「Comodo」テキスト</h3>
-    <div class="p-card__text">写真のコミュニティサイト Comodo のコーディングを担当いたしました。テキストが入ります。テキストが入ります。</div>
+    <div class="p-card__body">
+      <h3 class="p-card__title">写真コミュニティ「Comodo」テキスト</h3>
+      <div class="p-card__text">写真のコミュニティサイト Comodo のコーディングを担当いたしました。テキストが入ります。テキストが入ります。</div>
+    </div>
   </div>
 </a>
