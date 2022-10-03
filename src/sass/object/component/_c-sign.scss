@@ -1,0 +1,29 @@
+@use "global" as *;
+
+.c-sign {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.c-sign__head {
+  font-size: rem(15);
+  letter-spacing: 0.2em;
+  line-height: 1;
+  text-align: left;
+
+  @include mq(lg) {
+    font-size: rem(26);
+  }
+}
+
+.c-sign__name {
+  font-size: rem(30);
+  letter-spacing: 0.2em;
+  line-height: 1;
+  margin-top: rem(13);
+
+  @include mq(lg) {
+    font-size: rem(51);
+    margin-top: rem(22);
+  }
+}

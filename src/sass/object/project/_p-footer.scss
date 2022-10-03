@@ -98,6 +98,12 @@
     font-size: rem(18);
     line-height: 2;
   }
+  @include mq(lg) {
+    text-shadow:1px 1px 0 #FFF, -1px -1px 0 #FFF,
+              -1px 1px 0 #FFF, 1px -1px 0 #FFF,
+              0px 1px 0 #FFF,  0-1px 0 #FFF,
+              -1px 0 0 #FFF, 1px 0 0 #FFF;
+  }
 }
 
 .p-footer__img {

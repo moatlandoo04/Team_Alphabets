@@ -1,1 +1,13 @@
-<div class="p-top-blog"></div>
+<div class="p-top-blog">
+  <div class="p-top-blog__inner l-inner">
+    <div class="p-top-blog__head">
+      <%- include('../component/_c-section-title', {japaneseTitle:'ブログ', englishTitle:'blog', modifier:'blog'}) %>
+    </div>
+    <div class="p-top-blog__list">
+      <%- include('./_p-card-list', {max: 3, link: '/blog-detail.html'}) %>
+    </div>
+    <div class="p-top-blog__btn">
+      <%- include('../component/_c-btn', {link:'/blog.html', text:'more'}) %>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,48 @@
+@use "global" as *;
+
+.c-section-title {
+  display: inline-flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.c-section-title__ja {
+  display: block;
+  font-size: rem(50);
+  font-weight: $medium;
+  position: relative;
+  z-index: 10;
+
+  @include mq(lg) {
+    font-size: rem(60);
+  }
+}
+
+.c-section-title__ja--blog {
+  color: $white;
+}
+
+.c-section-title__en {
+  display: block;
+  font-size: rem(96);
+  margin-top: rem(-80);
+
+  @include mq(lg) {
+    font-size: rem(138);
+    margin-top: rem(-110);
+  }
+}
+
+.c-section-title__en--blog {
+  color: #898989;
+  text-transform: capitalize;
+}
+
+.c-section-title__en--greeting {
+  color: #EBEBEB;
+  margin-left: rem(-40);
+
+  @include mq(lg) {
+    margin-left: rem(-80);
+  }
+}

@@ -1,0 +1,41 @@
+@use "global" as *;
+
+.p-top-blog {
+  background-color: rgba($black, 0.4);
+  padding-top: rem(56);
+  padding-bottom: rem(103);
+  position: relative;
+
+  @include mq(lg) {
+    padding-top: rem(115);
+    padding-bottom: rem(204);
+  }
+}
+
+.p-top-blog__inner {
+
+  @include mq(md) {
+    max-width: rem(850);
+  }
+}
+
+.p-top-blog__head {
+  text-align: center;
+}
+
+.p-top-blog__list {
+  margin-top: rem(55);
+
+  @include mq(lg) {
+    margin-top: rem(103);
+  }
+}
+
+.p-top-blog__btn {
+  text-align: center;
+  margin-top: rem(60);
+
+  @include mq(lg) {
+    margin-top: rem(120);
+  }
+}
