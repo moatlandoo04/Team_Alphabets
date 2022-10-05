@@ -3,6 +3,7 @@
 .p-top-works {
   align-items: center;
   margin: 0 auto;
+  position: relative;
 }
 
 .p-top-works__inner {
@@ -26,41 +27,6 @@
   font-size: rem(50);
   font-weight: $medium;
   position: absolute;
-}
-
-.p-top-works__lists {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  position: relative;
-  justify-content: center;
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.p-top-works__list {
-  width: 100%;
-	position: relative;
-
-  @include mq(md) {
-    width: 33.333333333%;
-    max-width: rem(423);
-
-  }
-}
-
-.p-top-works__list a::before {
-  content: "";
-  display: block;
-  padding-top: 54.7393364929%;
-}
-
-.p-top-works__list img {
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
 }
 
 .p-top-works__btn {

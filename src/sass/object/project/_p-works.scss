@@ -1,0 +1,27 @@
+@use "global" as *;
+
+.p-works {
+
+}
+
+.p-works__inner {
+  margin-top: rem(40);
+  text-align: center;
+
+}
+
+.p-works__list {
+
+}
+
+.p-works__pagenavi {
+  margin-top: rem(40);
+  margin-bottom: rem(70);
+  display: inline-block;
+
+  @include mq(md){
+    margin-top: rem(95);
+    margin-bottom: rem(150);
+
+  }
+}
